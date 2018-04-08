@@ -16,7 +16,9 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
+                "-output-directory=${fileDirname}",
                 "${file}"
+                
             ],
             "problemMatcher": "$tsc-watch"
         },
@@ -34,6 +36,7 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
+                "-output-directory=${fileDirname}",
                 "${file}"
             ],
             "problemMatcher": "$tsc-watch"
@@ -54,6 +57,7 @@
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
+                "-output-directory=${fileDirname}",
                 "${file}"
             ],
             "problemMatcher": "$tsc-watch"
